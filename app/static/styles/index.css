@@ -75,13 +75,14 @@ button:focus{
 }
 .hero-main{
     width: clamp(300px, 100%, 1500px);
-    margin: 0 auto;
+    margin: 0 auto; 
+    position: relative;
 }
 .hero-img{
     width: 100%;
    margin: auto;
     height: 80vh;
-    position: relative;
+   
 }
 .hero-img > img{
     width: 100%;
@@ -92,13 +93,13 @@ button:focus{
 .hero-con{
     position: absolute;
     bottom: 25%;
-    width: clamp(300px,100%,1500px);
-    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    width: clamp(300px, 40%, 1500px);
     z-index: 0;
     color: white;
     font-size: 16px;
     padding: 2rem;
-   
 }
 .services-main{
  
